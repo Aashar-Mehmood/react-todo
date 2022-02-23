@@ -1,0 +1,39 @@
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 15px 0;
+  padding: 0px 20px;
+  font-size: 22px;
+  background-image: linear-gradient(to left, rgb(33, 138, 184), rgb(0, 241, 181));
+  color: white;
+  border-radius: 5px;
+}
+
+li p {
+  pointer-events: none;
+}
+
+li svg.check {
+  width: 30px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+li svg.font-zero {
+  font-size: 0;
+}
+
+li svg.delete {
+  cursor: pointer;
+}
+li.completed {
+  background-image: linear-gradient(to left, rgba(33, 139, 184, 0.5), rgba(0, 241, 181, 0.5));
+}
